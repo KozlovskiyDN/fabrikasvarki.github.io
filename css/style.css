@@ -194,6 +194,10 @@ left: 8px;
  #kozyrki {
   background: url(../images/kovanyi-kozyrek-glavnaya.jpg) no-repeat center top;
   } 
+ 
+  #navesy {
+  background: url(../images/navesu_pod_zakaz_v_rasrochky_Minsk.jpg) no-repeat center top;
+  } 
   
 .card-200 {
 	max-width: 200px;
