@@ -173,8 +173,7 @@ left: 8px;
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
-  background: url(../images/votono_gray.jpg) no-repeat center top;
+#headerwrap, #kozyrki {
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -188,10 +187,14 @@ left: 8px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-
 }
-
+#headerwrap {
+  background: url(../images/votono_gray.jpg) no-repeat center top;
+  }
+ #kozyrki {
+  background: url(../images/kovanyi-kozyrek-glavnaya.jpg) no-repeat center top;
+  } 
+  
 .card-200 {
 	max-width: 200px;
 	border-width: 3px 3px 3px 3px;
