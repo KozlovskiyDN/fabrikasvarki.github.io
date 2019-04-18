@@ -21,8 +21,9 @@
    
    <div class="row bg-dark">
     <div class="col-sm text-right">
-      <a href="tel:+375298088866" class="btn btn-outline-light my-2 text-uppercase px-4 ">Заказать звонок</a>
-    </div>
+      
+    <button type="button" class="btn btn-outline-light my-2 text-uppercase px-4" data-toggle="modal" data-target=".bd-example-modal-dm">Заказать звонок</button>
+	</div>
     <div class="col-sm text-right">
       <h3><a href="viber://add?number=375298088866"><img src="images/icon-white.png" style="width:40px;height:40px;" class="img my-2"></a>&nbsp;&nbsp;<a class="text-light" href="tel:+375298088866">+375 (29) 808-88-66</a></h3>
     </div>
@@ -105,9 +106,9 @@
 		<p class="my-4 py-4"></p>
           <h1 class="text-uppercase text-light my-4" >Металлические навесы</h1>
 		  <h3 class="text-uppercase text-light my-4">с гарантией 5 лет!</h3>
-		  
-          <a href="tel:+375298088866" class="btn btn-warning my-2 text-uppercase px-4 text-light">Вызвать замерщика бесплатно</a>
-		  <p class="my-4 py-4"></p>
+		  <button type="button" class="btn btn-warning my-2 text-uppercase px-4 text-light" data-toggle="modal" data-target=".bd-example-modal-dm">Вызвать замерщика бесплатно</button>
+	
+           <p class="my-4 py-4"></p>
 		  <p class="my-4 py-4"></p>
 		  <p class="my-4 py-4"></p>
         </div>
@@ -290,8 +291,16 @@
    </div>
     <div class="col-md text-center">
 	<p class="text-uppercase text-light text-weight-bold ">Обратная связь</p>
-      <p class="text-light"></p>
-	  
+      
+	  <form id="2" action="http://spinner-go.ru/mail" method="POST">
+          <div class="form-group" >
+            <input class="form-control m-1" type="text" name="name" placeholder="Иванов Иван Иванович ">
+            <input class="form-control m-1" type="email" name="email" placeholder="name@gmail.com">
+			<input class="form-control m-1" type="hidden" name="zakaz" value="Сообщение из подвала страницы навесы авто">
+            <input class="form-control m-1" type="text" name="body" placeholder="Сообщение...">
+            <p><input type="submit" class="btn-block text-weight-bold btn btn-warning my-2 mx-1" value="Отправить"></p>
+        </div>
+    </form>	  
 	  
 	  
 	  
@@ -315,7 +324,9 @@
  </div>
  
 <!-- modal --> 
-
+<div id="myModal" class="modal fade bd-example-modal-dm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dm">
+    <div class="modal-content">
 	<div class="container-fluid my-2 mx-auto">
       <h3 class="text-center text-weight-bold">Добрый день!</h3>
 	  <p class="text-center">Пожалуйста заполните данные и мы перезвоним</p>
@@ -358,7 +369,9 @@
 	  
 	  <div class="text-center"><button type="button" class="btn btn-success  my-4" data-dismiss="modal">Продолжить просмотр</button></div>
 	 </div> 
- 
+ </div>
+  </div>
+</div>
 <!-- modal -->  
  
  
