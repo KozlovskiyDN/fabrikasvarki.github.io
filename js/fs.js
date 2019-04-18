@@ -24,7 +24,7 @@ $(document).ready(function () {
             // какие данные будут переданы
             data: form.serialize(),
             // тип передачи данных
-            dataType: "jsonp",
+            dataType: "json",
             // действие, при ответе с сервера
             success: function(data){
                 // в случае, когда пришло success. Отработало без ошибок
