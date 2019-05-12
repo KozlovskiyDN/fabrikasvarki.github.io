@@ -86,7 +86,7 @@
   <!-- Collapsible content -->
   <div class="collapse navbar-collapse" id="navbarSupportedContent20">
 
-      <!-- Links -->
+   <!-- Links -->
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="/">Главная<span class="sr-only">(current)</span></a>
@@ -101,10 +101,10 @@
         <a class="nav-link" href="/navesy_terassu.html">Навесы для терассы/барбекю</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/navesy-komfort.html">Готовые навес Комфорт</a>
+        <a class="nav-link" href="/navesy-komfort.html">Готовые навесы Комфорт</a>
       </li>
 	   <li class="nav-item">
-        <a class="nav-link" href="/zabor.html">Заборы из Металлпрофиля/металлоштакетника</a>
+        <a class="nav-link" href="/zabor.html">Заборы из Металлопрофиля/металлоштакетника</a>
       </li>
 	  <li class="nav-item">
         <a class="nav-link" href="/zabory-i-vorota.html">Кованые ворота и калитки</a>
@@ -226,7 +226,7 @@
  <!-- Карточка с card-img-top -->
 <div class="col-md-4 text-center">
   <span class="glyphicon glyphicon-thumbs-up text-warning display-3 " aria-hidden="true"></span> 
-  <h3 class="text-uppercase text-warning  ">Гарантия 1000 дней</h3>
+  <h3 class="text-uppercase text-warning  ">Гарантия 5 лет</h3>
 		<p class="text-secondary">Мы уверены в качестве и даем расширенную гарантию 1000 дней</p>
 </div><!-- Конец карточки --> 
 
@@ -242,7 +242,7 @@
 
 
 <!-- Static-->
- <div class="container-fluid bg-secondary " >&nbsp;</div>
+ <div class="container-fluid bg-secondary  " >&nbsp;</div>
   
  <footer class="container-fluid bg-dark" >
  
@@ -260,15 +260,18 @@
    </div>
     <div class="col-md text-center">
 	<p class="text-uppercase text-light text-weight-bold ">Обратная связь</p>
-    <form id="2" action="http://spinner-go.ru/mail" method="POST" enctype="multipart/form-data">
+      
+	  <form id="2" action="http://spinner-go.ru/mail" method="POST" enctype="multipart/form-data">
           <div class="form-group" >
-            <input class="form-control m-1" type="text" name="name" placeholder="Иванов Иван Иванович ">
+            <input required class="form-control m-1" type="text" name="name" placeholder="Иванов Иван Иванович ">
+			<input required class="form-control m-1" type="tel" name="tel" placeholder="+375332089878">
             <input class="form-control m-1" type="email" name="email" placeholder="name@gmail.com">
-			<input class="form-control m-1" type="hidden" name="zakaz" value="Сообщение из подвала страницы навесы авто">
-            <textarea class="form-control m-1" type="text" name="body" placeholder="Сообщение..." rows="2"></textarea>
+			<input class="form-control m-1" type="hidden" name="zakaz" value="Сообщение из подвала страницы навесы-КОМФОРТ">
+            <textarea required class="form-control m-1" type="text" name="body" placeholder="Сообщение..." rows="2"></textarea>
             <p><input type="submit" class="btn-block text-weight-bold btn btn-warning my-2 mx-1" value="Отправить"></p>
         </div>
     </form>	  
+
     </div>
     <div class="col-md text-center">
 	<p class="text-uppercase text-light text-weight-bold ">Мы в соц. сетях</p>
@@ -286,7 +289,7 @@
  <p class="text-center text-dark">© 2019 - Изделия из металла - fabrikasvarki.by</p>
  </div>
  
-<!-- modal --> 
+ <!-- modal --> 
 <div id="myModal" class="modal fade bd-example-modal-dm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dm">
     <div class="modal-content">
@@ -301,13 +304,13 @@
         <div class="form-group" >
 
             <label class="formGroupExampleInput"> ФИО </label>
-            <input class="form-control" type="text" name="name" placeholder="Иванов Иван Иванович ">
+            <input required class="form-control" type="text" name="name" placeholder="Иванов Иван Иванович ">
 
             <label class="formGroupExampleInput"> Адрес </label>
             <input class="form-control" type="text" name="adr" placeholder="г. Минск ул. Кирова 40">
 
             <label class="formGroupExampleInput"> Телефон </label>
-            <input class="form-control" type="text" name="tel" placeholder="+375332089878">
+            <input required class="form-control" type="tel" name="tel" placeholder="+375332089878">
 
             <label class="formGroupExampleInput"> Email </label>
             <input class="form-control" type="email" name="email" placeholder="name@gmail.com">

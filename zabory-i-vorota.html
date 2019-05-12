@@ -103,10 +103,10 @@
         <a class="nav-link" href="/navesy_terassu.html">Навесы для терассы/барбекю</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/navesy-komfort.html">Готовые навес Комфорт</a>
+        <a class="nav-link" href="/navesy-komfort.html">Готовые навесы Комфорт</a>
       </li>
 	   <li class="nav-item">
-        <a class="nav-link" href="/zabor.html">Заборы из Металлпрофиля/металлоштакетника</a>
+        <a class="nav-link" href="/zabor.html">Заборы из Металлопрофиля/металлоштакетника</a>
       </li>
 	  <li class="nav-item">
         <a class="nav-link" href="/zabory-i-vorota.html">Кованые ворота и калитки</a>
@@ -148,7 +148,7 @@
       <div class="row centered">
         <div class="mx-auto pt-4">
 		<p class="my-4 py-4"></p>
-          <h1 class="text-uppercase text-light my-4" >Ворота и калитки</h1>
+          <h1 class="text-uppercase text-light my-4" >Ворота и калитки под заказ</h1>
 		  <h3 class="text-uppercase text-light my-4">Ворота которые преобразят Ваш участок</h3>
 		  
           <button type="button" class="btn btn-warning my-2 text-uppercase px-4 text-light" data-toggle="modal" data-target=".bd-example-modal-dm">Вызвать замерщика бесплатно</button>
@@ -242,7 +242,7 @@
 
 
 <!-- Static-->
- <div class="container-fluid bg-secondary mt-4" >&nbsp;</div>
+ <div class="container-fluid bg-secondary  " >&nbsp;</div>
   
  <footer class="container-fluid bg-dark" >
  
@@ -263,18 +263,15 @@
       
 	  <form id="2" action="http://spinner-go.ru/mail" method="POST" enctype="multipart/form-data">
           <div class="form-group" >
-            <input class="form-control m-1" type="text" name="name" placeholder="Иванов Иван Иванович ">
+            <input required class="form-control m-1" type="text" name="name" placeholder="Иванов Иван Иванович ">
+			<input required class="form-control m-1" type="tel" name="tel" placeholder="+375332089878">
             <input class="form-control m-1" type="email" name="email" placeholder="name@gmail.com">
-			<input class="form-control m-1" type="hidden" name="zakaz" value="Сообщение из подвала страницы ворота и калитки">
-            <textarea class="form-control m-1" type="text" name="body" placeholder="Сообщение..." rows="2"></textarea>
+			<input class="form-control m-1" type="hidden" name="zakaz" value="Сообщение из подвала страницы заборы и ворота">
+            <textarea required class="form-control m-1" type="text" name="body" placeholder="Сообщение..." rows="2"></textarea>
             <p><input type="submit" class="btn-block text-weight-bold btn btn-warning my-2 mx-1" value="Отправить"></p>
         </div>
     </form>	  
-	  
-	  
-	  
-	  
-	  
+
     </div>
     <div class="col-md text-center">
 	<p class="text-uppercase text-light text-weight-bold ">Мы в соц. сетях</p>
@@ -292,7 +289,7 @@
  <p class="text-center text-dark">© 2019 - Изделия из металла - fabrikasvarki.by</p>
  </div>
  
-<!-- modal --> 
+ <!-- modal --> 
 <div id="myModal" class="modal fade bd-example-modal-dm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dm">
     <div class="modal-content">
@@ -307,13 +304,13 @@
         <div class="form-group" >
 
             <label class="formGroupExampleInput"> ФИО </label>
-            <input class="form-control" type="text" name="name" placeholder="Иванов Иван Иванович ">
+            <input required class="form-control" type="text" name="name" placeholder="Иванов Иван Иванович ">
 
             <label class="formGroupExampleInput"> Адрес </label>
             <input class="form-control" type="text" name="adr" placeholder="г. Минск ул. Кирова 40">
 
             <label class="formGroupExampleInput"> Телефон </label>
-            <input class="form-control" type="text" name="tel" placeholder="+375332089878">
+            <input required class="form-control" type="tel" name="tel" placeholder="+375332089878">
 
             <label class="formGroupExampleInput"> Email </label>
             <input class="form-control" type="email" name="email" placeholder="name@gmail.com">
